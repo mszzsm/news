@@ -1,0 +1,13 @@
+<script>
+			function ajax() {
+              fetch('http://tstsrvsmp07.smp/wp-json/wp/v2/posts?filter%5Bposts_per_page%5D=10&page='+document.querySelector("#output-box").value+'&_embed')
+              .then(function(response) {
+                return response.json();
+              })
+              .then(function(myJson) {
+				var res = JSON.stringify(myJson)
+                console.log(res);
+                document.getElementById("demo").innerHTML = JSON.stringify(res)
+              });
+        }
+	</script>
