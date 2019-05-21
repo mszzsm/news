@@ -1,4 +1,4 @@
-=== Trending/Popular Post Slider and Widget ===
+=== Post plugin ===
 Contributors: Michał Sztefanica
 
 Tags: popular post, popular posts,trending, slick slider for post, trending posts carousel trending post, trending posts, trending posts carousel, popular posts slider, trending posts slider, widget, shortcodes, slider, post slick slider, trending posts widget, popular posts widget, counter, daily popular, page views, popular posts, statistics
@@ -9,10 +9,9 @@ Stable tag:
 License: 
 License URI: 
 
-A quick, easy way to add posts to page
+**A quick, easy way to add posts to page**
 
 == Description ==
-
 
 = You can display posts as =
 * Unordered list 
